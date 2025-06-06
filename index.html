@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Envie uma declaração de Dia dos Namorados de forma criativa para o seu crush!">
+    <title>Declaração de Amor - Dia dos Namorados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Música de fundo -->
+    <audio id="musica" loop autoplay>
+        <source src="musica-romantica.mp3" type="audio/mp3">
+        Seu navegador não suporta áudio.
+    </audio>
+
+    <!-- Cabeçalho com imagem de fundo -->
+    <header>
+        <div class="overlay">
+            <h1>Dia dos Namorados 💖</h1>
+            <p>Escreva uma mensagem especial para o seu crush!</p>
+        </div>
+    </header>
+
+    <section class="content">
+        <div class="message-form">
+            <h2>Declare seu amor com o coração!</h2>
+            <textarea id="mensagem" placeholder="Escreva sua mensagem de amor aqui..."></textarea>
+            <button id="enviar">Enviar mensagem</button>
+        </div>
+
+        <!-- Área que exibe a mensagem enviada -->
+        <div class="result" id="result">
+            <h2>Sua mensagem:</h2>
+            <p id="mensagem-final"></p>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 - Criado com amor para você ❤️</p>
+        <button id="play-pause">Pausar Música</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
